@@ -1,0 +1,40 @@
+Write a C  program to read “n” value and print following pattern:
+Note: use “\t” for spaces.
+Test Case1:
+Input: 
+Enter n value:5
+Output:                                     
+Aa
+Bb      Cc
+Dd      Ee      Ff
+Gg      Hh      Ii      Jj
+K#include<stdio.h>
+int main()
+{
+    int i,j;
+    char ch='A';
+    char ch1='a';
+    for(i=1;i<=5;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            printf("%c%c ",ch,ch1);
+            ch++;
+            ch1++;
+        }
+        printf("\n");
+    }
+    return 0;
+}k      Ll      Mm      Nn      Oo
+
+Test Case: 2
+Input: 
+Enter n value:3
+Output:
+Aa
+Bb      Cc
+Dd      Ee      Ff
+
+program:
+
+
